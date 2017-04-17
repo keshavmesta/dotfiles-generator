@@ -57,6 +57,14 @@ If any of the dotfile already exist, `dotfiles-generator` will not overwrite by 
 dotfiles-generator .gitignore .editorconfig --overwrite
 ```
 
+### Merging
+
+Just like overwrite, `dotfiles-generator` will not merge files by it's own. To force merge, you need to pass `--merge`. For e.g.
+
+```bash
+dotfiles-generator .gitignore .editorconfig --merge
+```
+
 <a id="available-dotfiles"></a>
 ## Available dotfiles
 ```bash
